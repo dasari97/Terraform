@@ -19,11 +19,11 @@ variable A {
 }
 
 output sample1 {
-  value = var.sample
+  value = var.sample[*]
 }
 
 output sample2 {
-  value = "${var.sample} everyone, welcome to the session"
+  value = "${var.sample[*]} everyone, welcome to the session"
 }
 
 output sample5 {
