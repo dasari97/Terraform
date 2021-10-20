@@ -11,7 +11,7 @@ variable sample4 {
 }
 
 output sample1 {
-  value = var.sample3
+  value = var.sample
 }
 
 output sample2 {
