@@ -18,6 +18,6 @@ output sample2 {
   value = "${var.sample} everyone, welcome to the session"
 }
 
-output sample1 {
+output sample5 {
   value = var.sample4
 }
