@@ -1,5 +1,5 @@
 variable sample {
-  default = "Hello"
+  default = ["hello", 100, true, "world"]
 }
 
 variable sample3 {
@@ -15,6 +15,7 @@ variable sample4 {
 }
 
 variable A {
+  default = "A"
 }
 
 output sample1 {
