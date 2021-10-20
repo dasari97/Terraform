@@ -10,6 +10,9 @@ variable sample4 {
   default = true
 }
 
+variable A {
+}
+
 output sample1 {
   value = var.sample
 }
