@@ -24,3 +24,7 @@ output sample2 {
 output sample5 {
   value = var.sample4
 }
+
+output A {
+  value = var.A
+}
