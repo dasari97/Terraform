@@ -7,7 +7,7 @@ variable sample3 {
 }
 
 variable sample4 {
-  A = true
+  default = true
 }
 
 output sample1 {
