@@ -27,7 +27,7 @@ output sample2 {
 }
 
 output sample5 {
-  value = var.sample4
+  value = var.sample4["course_name"]
 }
 
 output A {
