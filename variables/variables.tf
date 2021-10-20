@@ -7,7 +7,11 @@ variable sample3 {
 }
 
 variable sample4 {
-  default = true
+  default = {
+     course_name = "DevOps",
+     Timings     = "6AM"
+     is_active   = true
+  }
 }
 
 variable A {
