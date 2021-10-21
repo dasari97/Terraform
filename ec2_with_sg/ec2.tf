@@ -21,7 +21,7 @@ resource "aws_security_group" "A" {
       cidr_blocks      = ["0.0.0.0/0"]
       ipv6_cidr_blocks = []
       prefix_list_ids  = []
-      self             = true
+      self             = false
       security_groups  = []
     }
   ]
