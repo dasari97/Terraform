@@ -1,5 +1,5 @@
 resource "aws_security_group" "A" {
-  name        = "terraform"
+  name        = "abcd"
   description = "Allow TLS inbound traffic"
 
   ingress = [
@@ -31,6 +31,6 @@ resource "aws_security_group" "A" {
   ]
 
   tags = {
-    Name = "new"
+    Name = "terraform"
   }
 }
