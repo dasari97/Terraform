@@ -8,8 +8,8 @@ resource "aws_instance" "instance1" {
   vpc_security_group_ids = [aws_security_group.new.id]
 }
 
-resource "aws_security_group" "new" {
-  name        = "allow_tls"
+resource "aws_security_group" "1" {
+  name        = "terraform"
   description = "Allow TLS inbound traffic"
 
   ingress = [
