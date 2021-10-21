@@ -11,7 +11,6 @@ resource "aws_instance" "instance1" {
 resource "aws_security_group" "new" {
   name        = "allow_tls"
   description = "Allow TLS inbound traffic"
-  vpc_id      = aws_vpc.main.id
 
   ingress = [
     {
