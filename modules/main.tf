@@ -4,7 +4,7 @@ provider "aws" {
 
 module "ec2" {
     source = "./module"
-    ID  = module.sg.sg_id
+    id  = module.sg.sg_id
 }
 
 module "sg" {
