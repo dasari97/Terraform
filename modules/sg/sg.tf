@@ -1,4 +1,3 @@
-
 resource "aws_security_group" "A" {
   name        = "terraform"
   description = "Allow TLS inbound traffic"

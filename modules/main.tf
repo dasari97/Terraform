@@ -5,3 +5,7 @@ provider "aws" {
 module "ec2" {
     source = "./module"
 }
+
+module "ec2" {
+    source = "./sg"
+}
